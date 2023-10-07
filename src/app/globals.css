@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.btn {
+  @apply flex justify-center gap-2 px-3 py-2 bg-[#7562f0] hover:bg-blue-700 tracking-wide text-white capitalize transition-colors duration-300 transform  rounded-lg  focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80;
+}
+.btn2 {
+  @apply flex items-center gap-2 px-4 py-2 bg-green-500 hover:bg-green-700 tracking-wide text-white capitalize transition-colors duration-300 transform  rounded-lg  focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80;
+}
+
+body {
+  background-image: url("/bg.png"); /* Path relative to the public folder */
+  background-repeat: no-repeat;
+
+  background-size: contain;
+  width: 100%;
+  min-height: 100vh;
+  background-position: left;
+}

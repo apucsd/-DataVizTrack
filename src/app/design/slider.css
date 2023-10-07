@@ -1,0 +1,4 @@
+.bg-blend-overlay-blue {
+  background-color: #3498db; /* Blue color */
+  mix-blend-mode: overlay; /* Apply overlay blend mode */
+}
